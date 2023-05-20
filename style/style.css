@@ -1,5 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap");
+
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 1.5rem;
+  height: 10vh;
+  border-bottom: 3px solid #9e4f85;
+  padding: 0 2rem;
+}
+
+nav {
+  background-color: #35424a;
+}
+
+.header h1 {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+}
+
+.header span {
+  color: #a8508b;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem 2rem;
+}
+
+.header-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+}
+.header-list a:hover {
+  color: #a8508b;
+}
+
+.banner {
+  color: white;
+  background-image: url(/img/showcase.jpg);
+  min-height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.banner p {
+  font-size: 1rem;
+}
+
+.subscribe {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  background-color: #35424a;
+  color: white;
+}
+
+.subscribe h3 {
+  font-size: 1rem;
+}
+
+.subscribe-email input {
+  font-size: 0.8rem;
+  padding: 5px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.subscribe-email button {
+  font-size: 0.8rem;
+  padding: 5px 15px;
+  background-color: #e8491d;
+  color: white;
+  border-radius: 5px;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.subscribe-email button:hover {
+  background-color: #ee5a24;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+  min-height: 30vh;
+  background-color: #f4f4f4;
+}
+
+.info div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem 1rem;
+  text-align: center;
+}
+
+.info div img {
+  width: 75px;
+}
+
+.info div h2 {
+  font-size: 1rem;
+}
+
+.info div p {
+  font-size: 0.8rem;
+}
+
+footer {
+  background-color: #35424a;
+  min-height: 10vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  gap: 5px;
+}
+
+footer img {
+  width: 200px;
+}
+
+footer h3 {
+  font-size: 0.7rem;
 }
