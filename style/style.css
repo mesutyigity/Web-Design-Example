@@ -59,7 +59,7 @@ ul {
 
 .banner {
   color: white;
-  background-image: url(/img/showcase.jpg);
+  background-image: url(./showcase.jpg);
   min-height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -185,16 +185,28 @@ footer h3 {
   flex-direction: column;
   gap: 1rem;
 }
+.part-1 p {
+  padding-top: 2rem;
+}
 
 .container-about-left p {
   font-size: 1rem;
   line-height: 1.5rem;
 }
+
+.part-2 {
+  margin-top: 0.5rem;
+}
+.part-3 {
+  margin-top: 5.1rem;
+}
+
 .part-2,
 .part-3 {
   background-color: #35424a;
   color: white;
   padding: 1rem;
+  padding-top: rem;
 }
 
 .container-about-right p {
