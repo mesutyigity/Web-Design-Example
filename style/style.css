@@ -164,3 +164,40 @@ footer img {
 footer h3 {
   font-size: 0.7rem;
 }
+
+/*? ******ABOUT****** ?*/
+
+.container-about {
+  min-height: 70vh;
+  padding: 2rem;
+  display: flex;
+  gap: 0 2rem;
+}
+
+.container-about-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.part {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container-about-left p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.part-2,
+.part-3 {
+  background-color: #35424a;
+  color: white;
+  padding: 1rem;
+}
+
+.container-about-right p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
